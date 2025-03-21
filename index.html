@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+          
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="/PROJECT(CA)/IMAGE/codingage.webp" alt="Logo">
+                <h2 class="logo-name">CODING <span>AGE</span></h2>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-tachometer-alt"></i> Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-users"></i> Customers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i> Orders
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-tasks"></i> Tasks
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-images"></i> Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i> Messages <span class="badge">5</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-plus"></i> Add Product
+                        </a>
+                    </li>
+                    <li class="logout">
+                        <a href="#">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+      <!-- Main Content ------------------------------------------------------------------------ -->
+
+<main class="main-content">
+    <header class="top-bar">
+
+        <h2>Dashboard</h2>
+        <input type="date" class="date">
+        <div class="profile">
+            <span>Hey, Daniel</span>
+            <img src="/PROJECT(CA)/IMAGE/images.png" alt="Profile">
+        </div>
+    </header>
+
+    <section class="stats">
+        
+        <div class="card">
+            <div class="info">
+                <i class="fa-solid fa-arrow-up-right-dots icon1"></i>
+                <h5 class="description">Total Sales</h5>
+                <h2 class="rs">$25,024</h2>
+                <p class="update">Last 24 Hours</p>
+            </div>
+            <div class="progress-circle">
+                <svg viewBox="0 0 36 36">
+                    <path class="circle-bg"></path>
+                    <path class="circle" stroke-dasharray="81, 100" d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0-32"></path>
+                </svg>
+                <span>81%</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <i class="fa-solid fa-chart-simple icon2"></i>
+                <h5 class="description">Total Expenses</h5>
+                <h2 class="rs">$41,160</h2>
+                <p class="update">Last 24 Hours</p>
+            </div>
+            <div class="progress-circle">
+                <svg viewBox="0 0 36 36">
+                    <path class="circle-bg"></path>
+                    <path class="circle" stroke-dasharray="62, 100" d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0-32"></path>
+                </svg>
+                <span>62%</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+            <i class="fa-solid fa-chart-line icon3"></i>
+                <h5 class="description">Total Income</h5>
+                <h2 class="rs">$10,864</h2>
+                <p class="update">Last 24 Hours</p>
+            </div>
+            <div class="progress-circle">
+                <svg viewBox="0 0 36 36">
+                    <path class="circle-bg"></path>
+                    <path class="circle" stroke-dasharray="44, 100" d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0-32"></path>
+                </svg>
+                <span>44%</span>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="recent">Recent Orders</h3>
+    <section class="recent-orders">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Number</th>
+                    <th>Payment</th>
+                    <th>Status</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="pending">Pending</td>
+                    <td class="detail"><a href="#">Details</a></td>
+                </tr>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="pending">Pending</td>
+                    <td class="detail"><a href="#">Details</a></td>
+                </tr>
+
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="pending">Pending</td>
+                    <td class="detail"><a href="#">Details</a></td>
+                </tr>
+
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="pending">Pending</td>
+                    <td class="detail"><a href="#">Details</a></td>
+                </tr>
+
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="pending">Pending</td>
+                    <td class="detail"><a href="#">Details</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#" class="show-all">Show all</a>
+    </section>
+</main>
+
+
+<!-- ------------------------------- End main content --------------------------------- -->
+
+
+        <div class="container">
+            <h3 class="recentup">Recent Updates</h3>
+            <div class="recent-updates">
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/PROJECT(CA)/IMAGE/images.png" alt="Profile">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/PROJECT(CA)/IMAGE/images.png" alt="Profile">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/PROJECT(CA)/IMAGE/images.png" alt="Profile">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> received his order of Night lion tech GPS drone</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    
+            
+            <h3 class="recentup">Sales Analytics</h3>
+            <div class="sales-analytics">
+                
+    
+                <div class="item online">
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3 class="text">ONLINE ORDERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+    
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3 class="text">OFFLINE ORDERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="logo2">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+    
+                <div class="item customers">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3 class="text">NEW CUSTOMERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="logo2">+25%</h5>
+                        <h3>8491</h3>
+                    </div>
+                </div>
+    
+                <div class="item add-product">
+                    <div>
+                        <h3><span class="sharp">add</span> Add Product</h3>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+
+        <script>
+            const menuToggle = document.querySelector(".menu-toggle");
+            const sidebar = document.querySelector(".sidebar");
+        
+            menuToggle.addEventListener("click", function () {
+                sidebar.classList.toggle("active");
+            });
+
+
+
+            document.addEventListener("DOMContentLoaded", function () {
+            const darkModeToggle = document.getElementById("darkModeToggle");
+
+           if (localStorage.getItem("darkMode") === "enabled") {
+               document.body.classList.add("dark-mode");
+                darkModeToggle.checked = true;
+           }
+
+              darkModeToggle.addEventListener("change", function () {
+              if (this.checked) {
+                  document.body.classList.add("dark-mode");
+                 localStorage.setItem("darkMode", "enabled");
+               } else {
+                  document.body.classList.remove("dark-mode");
+                localStorage.setItem("darkMode", "disabled");
+               }
+             });
+            });
+        </script>
+        
+</body>
+</html>
