@@ -407,6 +407,7 @@ td{
         height: auto;
     }
     .sidebar {
+         margin-top: 50px;
         position: fixed;
         left: -100%;
         top: 0;
